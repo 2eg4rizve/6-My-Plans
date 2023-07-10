@@ -1,0 +1,120 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.header {
+    height: 100vh;
+    background-color: #620ec9;
+    background-image: url(/images/banner/banner1.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+}
+
+.banner-text {
+    margin-top: 200px;
+    width: 30%;
+}
+
+.banner-title{
+    color: #620ec9;
+    font-size: 50px;
+    padding: 20px;
+}
+
+.banner-description{
+    color: rgb(10, 209, 63);
+}
+
+.btn {
+    font-size: 20px;
+    background-color: red;
+    padding: 10px;
+    margin: 20px;
+    border-radius: 5px;
+
+}
+
+/* My failures of previous year */
+
+.previous-year{
+    height: 100vh;
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    background-color: aqua;
+    gap: 100px;
+}
+.previous-year-img-div
+{
+    margin-left: 100px;
+}
+.previous-year-img{
+    height: 650px;
+    width: 500px;
+   
+}
+.previous-year-text{
+    /* width: 40%; */
+    margin-top: 150px;
+    margin-right: 200px;
+    
+}
+.previous-year-h{
+    color: #620ec9;
+    font-size: 50px;
+    padding: 20px;
+}
+.previous-year-p{
+    color: #a4065d;
+    font-size: 20px;
+    padding: 20px;
+}
+
+.previous-year-ol{
+    margin-left: 50px;
+    font-size: 15px;
+}
+
+/* My Plans */
+
+.My-Plans{
+    width: 70%;
+    height: 300px;
+    margin: auto;
+    background-color: #a4065d;
+    border-radius: 10px;
+
+}
+.My-Plans-title{
+    padding: 20px;
+    text-align: center;
+    font-size: 30px;
+}
+
+.boxs{
+   
+    display: flex;
+    gap: 70px;
+   
+    padding: 30px;
+    text-align: center;
+    justify-content: space-between;
+}
+
+/* appointment-container */
+
+.appointment-container{
+    width: 80%;
+    height: 300px;
+    margin: auto;
+    background-image: url('/images/watch.png'),linear-gradient(rgba(222, 7, 7, 0.2),rgba(20, 214, 62, 0.5));
+    background-repeat: no-repeat;
+    background-position: center;
+    background-blend-mode: overlay;
+    border-radius: 15px;
+
+}

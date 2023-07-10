@@ -142,3 +142,48 @@
     border-radius: 5px;
 
 }
+
+/* footer */
+footer{
+    display: flex;
+    background: #55d5a2;
+    padding: 30px;
+    margin-top: 100px;
+    gap: 100px;
+}
+.footer-left{
+    width: 50%;
+}
+.footer-right{
+    width: 50%;
+    padding-left: 250px;
+}
+.footer-h{
+    font-size: 40px;
+    padding-bottom: 20px;
+}
+
+.footer-p{
+    padding-bottom: 20px;
+}
+.contact input[type ="text"],.contact input[type ="email"],
+textarea {
+    display: block;
+    margin-bottom: 20px;
+    padding: 18px 35px;
+    color: #a80303;
+    border-radius: 5px;
+    background:  #4c4758;
+    border: 0px;
+    width: 100%;
+}
+.btn-primary {
+    border-radius: 5px;
+    background: #FD6E0A;
+    border: 0;
+    color: wheat;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 15px 35px;
+
+}

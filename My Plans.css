@@ -118,3 +118,8 @@
     border-radius: 15px;
 
 }
+.appointment-container-text{
+    color: #a4065d;
+    font-size: 40px;
+    max-width: 300px;
+}
